@@ -29,14 +29,14 @@ div.myDetail li {
     color: black;
     font-family: fantasy;
 }
+div.myDetail p{
+    font-size: 15px;
+    color: red;
+    font-family: fantasy;
+}
 
 footer {
-    padding: 20px;
-    margin: 20px;
-    color: red;
+    color: black;
     font-size: 15px;
     font-family:fantasy;
-}
-footer p{
-    text-align: left;
 }
