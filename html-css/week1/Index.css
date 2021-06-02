@@ -1,55 +1,42 @@
 body{
     background-image: url("background.jpg") ;
-    background-repeat:repeat-x;
+    background-repeat:repeat;
     padding: 5px;
     margin:10px;
-    border:2px solid rgb(207, 26, 26);
 }
 
-.myData{
-    width: height*3;
-    height:110px;
-}
-
-.myData h1{
+div.myData h1{
     font-size: 40px;
     color:black;
     font-family: fantasy;
 }
 
-.myData h2{
+div.myData h2{
     font-size: 25px;
     color: red;
     font-family: fantasy;
 }
 
-.myDetail{
-    width: height*3;
-    height:300px;
-}
-
-.myDetail h1{
+div.myDetail h1{
     font-size: 30px;
     font: bold;
     color:black;
     font-family: fantasy ;
 }
 
-.myDetail li {
+div.myDetail li {
     font-size: 15px;
     color: black;
     font-family: fantasy;
 }
 
 footer {
-    text-align: left;
-    padding: 10px;
-    margin: 10px;
-    color: rgb(7, 2, 2);
+    padding: 20px;
+    margin: 20px;
+    color: red;
     font-size: 15px;
     font-family:fantasy;
 }
-.footer p{
-    font-size: 10px;
+footer p{
+    text-align: left;
 }
-
