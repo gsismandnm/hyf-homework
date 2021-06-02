@@ -1,0 +1,42 @@
+body{
+    background-image: url("background.jpg") ;
+    background-repeat:repeat;
+    padding: 5px;
+    margin:10px;
+}
+
+div.myData h1{
+    font-size: 40px;
+    color:black;
+    font-family: fantasy;
+}
+
+div.myData h2{
+    font-size: 25px;
+    color: red;
+    font-family: fantasy;
+}
+
+div.myDetail h1{
+    font-size: 30px;
+    font: bold;
+    color:black;
+    font-family: fantasy ;
+}
+
+div.myDetail li {
+    font-size: 15px;
+    color: black;
+    font-family: fantasy;
+}
+div.myDetail p{
+    font-size: 15px;
+    color: red;
+    font-family: fantasy;
+}
+
+footer {
+    color: black;
+    font-size: 15px;
+    font-family:fantasy;
+}
