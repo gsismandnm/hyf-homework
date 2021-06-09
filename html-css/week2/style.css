@@ -1,0 +1,153 @@
+
+body, html *{
+    margin:0;
+    padding:0;
+    font-family: Arial, Helvetica, sans-serif; 
+    box-sizing: border-box;  
+      } 
+
+body{
+      width: 100%;
+  }
+
+header {    
+    height: 120px;
+    background-color: #FAFAFA;
+    padding-left: 10%;
+    padding-top: 3%;
+    }
+ 
+
+.headnav {
+    display: flex;
+    list-style:none;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-decoration: none;
+    padding-left: 10%;        
+    }
+
+nav ul {
+    display:flex;
+    list-style:inside;  
+    }
+  
+nav ul li {
+    padding-right: 40px;        
+    }
+
+.bigpicture img {
+    display:block;
+    margin: 0;
+    width: 100%;
+    }
+      
+.container{
+        display:flex;
+        box-sizing: border-box;
+        margin-left:10%;
+        flex-wrap:wrap;
+        align-content: center;          
+      }
+   
+.section1{
+        width: 35%;
+        margin: 20px;   
+    }
+
+.section2{
+        width: 50%;
+        margin: 20px;
+    }
+
+.webicon img {
+        width: 130px;
+        padding:20px;
+        
+    }
+
+footer {
+        width: 100%;
+        background-color: #502ba0;
+        color: white;
+        display:flex;
+        justify-content:space-evenly;
+        font-size:medium;
+        margin-bottom: 100px;
+    }
+
+footer h3 {
+        text-decoration-style: double ;
+        padding-top: 20px;
+        padding-bottom: 10px;  
+    }
+footer ul li {
+        line-height: 40px;
+        list-style: none;
+        border-bottom: solid 1px hsl(0, 34%, 56%);  
+    }
+footer a {
+        text-decoration: none;
+        color: white;
+    }
+footer p{
+        line-height: 30px;
+    }
+    
+@media only screen and (max-width: 1100px){
+        
+    .container{
+            grid-template-columns: 50px 50px 50px; 
+            row-gap: 1%;
+            column-gap: 10%;
+        }
+    }
+
+@media only screen and (max-width: 750px){
+    
+    .container{
+        grid-template-columns: 50px 50px 50px;
+        row-gap: 1px;
+        column-gap: 5px;
+        margin-bottom: 3px;
+        }
+        
+        nav ul, section{
+            flex-direction: column;
+            }
+        
+        .section1, .section2 {
+            width: 100%;
+            padding-right: 5%;
+            margin-left: 0%;
+            margin-top: 20px;
+            }
+
+        footer{
+            flex-direction: column;
+            }
+
+        footer h1, ul li, a, p {
+            margin-left: 25 px;
+            }
+    }
+
+@media only screen and (max-width: 480px){
+        
+    .container{
+        grid-template-columns: 50px 50px 50px;
+        row-gap: 1px;
+        column-gap: 5px;
+        margin-bottom: 3px;
+        }
+
+        footer{
+            flex-direction: column;
+            }
+            
+        footer h1, ul li, a, p {
+            margin-left: 25 px;
+            }
+    }
+
+
