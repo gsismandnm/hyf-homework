@@ -141,13 +141,13 @@ footer p{
         margin-bottom: 3px;
         }
 
-        footer{
-            flex-direction: column;
-            }
+    footer{
+        flex-direction: column;
+        }
             
-        footer h1, ul li, a, p {
-            margin-left: 25 px;
-            }
+    footer h1, ul li, a, p {
+        margin-left: 25 px;
+        }
     }
 
 
