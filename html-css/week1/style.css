@@ -49,6 +49,7 @@ footer {
     font-size: 15px;
     font-family:fantasy;
 =======
+<<<<<<< Updated upstream
 body{
     background-image: url("images/background.jpg") ;
     background-size: 100%;
@@ -98,5 +99,56 @@ footer {
     color: black;
     font-size: 15px;
     font-family:fantasy;
+=======
+body{
+    background-image: url("images/background.jpg") ;
+    background-size: 100%;
+    padding: 5px;
+    margin:10px;
+}
+header{
+    height: 40%;    
+}
+
+section{
+    height: 60%;
+}
+
+.myData h1{
+    font-size: 40px;
+    color:black;
+    font-family: fantasy;
+}
+.myData p{
+    font-size: 16px;
+    text-align: justify;
+    font-family: fantasy;
+    color: rgb(143, 29, 29);
+}
+
+.myDetail h2{
+    font-size: 30px;
+    font: bold;
+    color:black;
+    font-family: fantasy ;
+}
+
+.myDetail li{
+    font-size: 15px;
+    color: black;
+    font-family: fantasy;
+}
+
+.myDetail p{
+    font-size: 15px;
+    color: rgb(92, 6, 6);
+    font-family: fantasy;
+}
+
+footer {
+    color: black;
+    font-size: 15px;
+    font-family:fantasy;
+>>>>>>> Stashed changes
 >>>>>>> ae296055eda1722f3050a7be39091e5843fdfd71:html-css/week1/Index.css
 }
