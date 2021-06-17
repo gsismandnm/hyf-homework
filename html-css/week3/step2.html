@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gkn Week-3 Form2</title>
+    <link rel="stylesheet" href="step.css">
+</head>
+
+<body>
+    <header>
+        <div>
+            <img class="logo" src="images/logo-horse.jpg"  alt="logo">          
+        </div>           
+        <nav>
+            <li><a href="#Men">Men</a></>
+            <li><a href="#Women">Women</a></li>
+            <li><a href="#Kids" >Kids</a></li>
+            <li><a href="#Others" >Outlet</a></li>
+            <li><a href="#Accessories" >Accessories</a></li>      
+        </nav>  
+    </header>
+    <main>
+        <section>
+            <h1>Sign up to www.gkndenmark.dk</h1>
+            <hr>
+        </section>
+        
+        <section>
+            <h2>Step 2/4 - How can we reach you?</h2>
+            <div class="progress-container">
+                <progress value="2" max="4"></progress>
+            </div>
+                <p>We will probably need to stay in touch somehow. Let us now how we can reach you?</p>
+            <form method="post" action="step3.html" autocomplete="off">
+                <div class="inputs">
+                    <div class="input-group">
+                        <label>E-mail*</label>
+                    </div>
+                    <div class="input-group">
+                        <input name='email' type='email' class="form-input" required />
+                    </div>
+                    <div class="input-group">
+                        <label>Phone*</label>
+                    </div>
+                    <div class="input-group">
+                        <input name='phone' type="tel" class="form-input" required />
+                    </div>
+                    <div class="input-group">
+                        <label>Password*</label>
+                    </div>
+                    <div class="input-group">
+                        <input name='password' type='password' class="form-input" required />
+                    </div>
+                    <div class="input-group"></div>
+                    <div class="input-group">
+                        <label>Re-enter password*</label>
+                    </div>
+                    <div class="input-group">
+                        <input name='password_rep' type='password' class="form-input" required />
+                    </div>
+                        <p class="p-page2">I want to sign up for newsletter: </p>
+                    <div class="radiobtn">
+                        <div>
+                            <label>Weekly News <input type="radio" name="newsletter" value="weekly-news" checked></label>
+                        </div>
+                        <div>
+                            <label>Monthly News <input type="radio" name="newsletter" value="monthly-news"></label>
+                        </div>
+                        <div>
+                            <label>Don't Send Me News <input type="radio" name="newsletter" value="no-news"></label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="button-div">
+                    <button type="submit">Next Step</button>
+                </div>
+            </form>
+        </section>
+    </main>
+</body>
+</html>

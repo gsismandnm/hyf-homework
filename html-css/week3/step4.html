@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gkn Week-3 Form4</title>
+    <link rel="stylesheet" href="step.css">
+</head>
+
+<body>
+    <header>
+        <div>
+            <img class="logo" src="images/logo-horse.jpg"  alt="logo">          
+        </div>           
+        <nav>
+            <li><a href="#Men">Men</a></>
+            <li><a href="#Women">Women</a></li>
+            <li><a href="#Kids" >Kids</a></li>
+            <li><a href="#Others" >Outlet</a></li>
+            <li><a href="#Accessories" >Accessories</a></li>      
+        </nav>  
+    </header>
+    
+    <main>
+        <section>
+            <h1>Sign up to www.gkndenmark.dk</h1>
+            <hr>
+        </section>
+        
+        <section>
+            <h2>Step 4/4 - Payment information:</h2>
+            <div class="progress-container">
+                <progress value="4" max="4"></progress>
+            </div>
+            <p>Please fill in your payement data</p>
+            <form method="post" action="step3.html" autocomplete="off">
+                <div class="inputs">
+                    <div class="input-group">
+                        <label>Name on card</label>
+                    </div>
+                    <div class="input-group">
+                        <input name='card_name' type='text' class="form-input" required />
+                    </div>
+                    <div class="input-group"></div>
+                    <div class="input-group"></div>
+                    <div class="input-group">
+                        <label>Card type</label>
+                    </div>
+                    <div class="input-group">
+                        <select name='card_type' class="form-input" required>
+                            <option value="0">Select Card Type</option>
+                            <option value="1">Visa Card</option>
+                            <option value="2">Master Card</option>
+                            <option value="3">Bank Card</option>
+                        </select>
+                    </div>
+                    <div class="input-group"></div>
+                    <div class="input-group"></div>
+                    <div class="input-group">
+                        <label>Credit card number</label>
+                    </div>
+                    <div class="input-group">
+                        <input name='card_number' type='number' inputmode="tel" class="form-input" min="1000000000000000" max="9999999999999999" title="enter 16 digits" required />
+                    </div>
+                    <div class="input-group">
+                        <label>First name</label>
+                    </div>
+                    <div class="input-group">
+                        <input name='first_name' type="text" class="form-input" required />
+                    </div>
+                    <div class="input-group">
+                        <div class="card-detail">
+                            <label>Expration month</label>
+                            <input name='first_nameExpiry month' type="number" inputmode="tel" class="form-input" required />
+                        </div>
+                    </div>
+                    <div class="input-group">
+                        <div class="card-detail">
+                            <label>Expration year</label>
+                            <input name='first_nameExpiry year' type="number" inputmode="tel" class="form-input" required />
+                        </div>
+                    </div>
+                    <div class="input-group"></div>
+                    <div class="input-group"></div>
+                    <div class="input-group">
+                        <div class="card-detail">
+                            <label>CVV</label>
+                            <input name='first_name' type="number" inputmode="tel" min="100" max="999" title="enter 3 digits" class="form-input" required />
+                        </div>
+                    </div>
+                </div>
+
+                <div class="button-div">
+                    <button type="submit">Finish</button>
+                </div>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
