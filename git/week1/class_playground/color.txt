@@ -1,2 +1,2 @@
-Black
-White
+Black - First one
+White - Second one
