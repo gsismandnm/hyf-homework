@@ -6,7 +6,6 @@ var gardenSizeInM2 = 100;
 var houseCost = 2500000;
 var volumeInMeters = houseWidth * houseDepth * houseHeight;
 var housePrice = volumeInMeters * 2.5 * 1000 + gardenSizeInM2 * 300;
-
 if(housePrice > houseCost) {
    console.log( "Peter did paye too much");
 }
@@ -22,7 +21,6 @@ var gardenSizeInM2 = 70;
 var houseCost = 1000000;
 var volumeInMeters = houseWidth * houseDepth * houseHeight;
 var housePrice = volumeInMeters * 2.5 * 1000 + gardenSizeInM2 * 300;
-
 if(housePrice > houseCost) {
    console.log( "Julia did paye too much");
 }
