@@ -24,10 +24,10 @@ function addCandy(candyType, weight)
 }
 
 
-addCandy("sweet",50);
-addCandy("chocolate",150);
+addCandy("sweet",75);
+addCandy("chocolate",75);
 addCandy("toffee",20);
-addCandy("chewing-gum",10);
+addCandy("chewing-gum",30);
 addCandy("Cookie", 10);
 
 
