@@ -1,7 +1,7 @@
 const class07Students = [];
 
 function addStudentToClass(studentName) {
-    if (studentName === "") {
+    if (studentName === " ") {
         console.log("Name is empty. So you can not add the class.");
         return;}
 

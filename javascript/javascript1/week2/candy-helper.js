@@ -32,14 +32,15 @@ addCandy("Cookie", 10);
 
 
 
-let i=0;
-while (i<boughtCandyPrices.length){
-    spendpower += boughtCandyPrices[i];
-    i++;
-}
+
 let amountToSpend = Math.floor(Math.random() * 100);
 
 function canBuyMoreCandy(){
+    let i=0;
+    while (i<boughtCandyPrices.length){
+    spendpower += boughtCandyPrices[i];
+    i++;
+    }
     if (amountToSpend >= spendpower){
         console.log("Can Buy More Candy : You can buy more!");}
 
