@@ -16,5 +16,4 @@ const travelTime = getArrivalTime(travelInformation);
 
 console.log((travelTime)); // The result = 8 hours and 38 minutes
 
-
 getArrivalTime();

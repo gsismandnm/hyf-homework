@@ -21,6 +21,7 @@ const notes = [];
         }
     }
 
+    
     saveNote("Pick up groceries", 1);
     saveNote("Do laundry", 2);
     const firstNote = getNote(1);
