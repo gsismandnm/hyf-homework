@@ -3,7 +3,7 @@ const travelInformation = {
     destinationDistance: 432,
 };
 
-function getArrivalTime() {
+function getArrivalTime(travelInformation) {
     const approxTime = travelInformation.destinationDistance / travelInformation.speed;
     let hours = Math.floor(approxTime);
     let minutes = Math.floor((approxTime % 1) * 60);
