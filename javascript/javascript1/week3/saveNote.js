@@ -1,10 +1,10 @@
 const notes = [];
 
     function saveNote(content, id) {
-        var arr=[];
-        arr['content']=content;
-        arr['id']=id;
-        notes.push(arr);
+        const obj={};
+        obj.content=content;
+        obj.id=id;
+        notes.push(obj);
     }
     function getNote(id) {
         for( var i = 0; i < notes.length; i++){
