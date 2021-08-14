@@ -4,11 +4,11 @@ const danishWords = ['bil', 'plante', 'kaffe', 'bog', 'ø', 'planetarium'];
 //notThisFunctionName(danishWords); // returns 'ø'
 
   function findShortestWord(danishWords) {    
-    var shortest = danishWords.reduce((shortestWord, currentWord) => {
+    const shortest = danishWords.reduce((shortestWord, currentWord) => {
       return currentWord.length < shortestWord.length ? currentWord : shortestWord;
-    }, danishWords[0]);
+    },);
     return shortest;
   }
 
-  console.log(danishWords);
-  console.log(findShortestWord(danishWords));
+  console.log('All Words are : ' + danishWords);
+  console.log('Short word is :  ' + findShortestWord(danishWords));
