@@ -5,14 +5,14 @@ The new filename is voiceAssistant2.js.
 There is a voiceAssistant.js file with the same content on GITHUB.*/
 
 
-let username = "";
-let todo = [];
+const username = "";
+const todo = [];
 function getReply(command)
 {
-    const arraywords = command.toLowerCase().split(" ");
-    if (arraywords.includes("hello"))
+    const arrayWords = command.toLowerCase().split(" ");
+    if (arrayWords.includes("hello"))
     {
-        username = arraywords [arraywords.length-1];
+        username = arrayWords [arraywords.length-1];
         return `Nice to meet you ${username}` ;
     }
     else if (command.includes("What is my name")) 
@@ -51,10 +51,10 @@ function getReply(command)
     }
     else if (command.includes("What is"))
     {
-       const matharray = command.split(" ");
-        let num1 = matharray[2];
-        let num2 = matharray[4];
-        let operator = matharray[3];
+       const mathArray = command.split(" ");
+        let num1 = mathArray[2];
+        let num2 = mathArray[4];
+        let operator = mathArray[3];
         if (operator === "+")
         {
            return (parseInt(num1)+parseInt(num2));
