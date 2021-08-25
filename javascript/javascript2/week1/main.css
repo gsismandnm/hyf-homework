@@ -1,0 +1,36 @@
+body {
+    background-color: rgb(178, 207, 235);
+    display: block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(114, 6, 6);
+}
+
+.Tasks {
+    padding-left: 2em;
+    margin: 2em;
+}
+
+.headlines {
+    border: 1px solid black;
+    padding: 1px;
+    font-size: 1.5em;
+    color: rgb(155, 190, 71);
+    background-color: rgb(153, 104, 40);
+}
+
+fieldset {
+    background-color: crimson;
+}
+
+.hyfbay {
+    border: 1px dotted coral;
+    display: inline-block;
+}
+
+h3 {
+    color: blueviolet;
+}
+
+p {
+    font-size: 1em;
+} 
